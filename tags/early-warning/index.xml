@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Early Warning on Trefoil analytics</title>
+    <link>/tags/early-warning/index.xml</link>
+    <description>Recent content in Early Warning on Trefoil analytics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;2017 Trefoil analytics</copyright>
+    <atom:link href="/tags/early-warning/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Loan default and customer churn prediction</title>
+      <link>/portfolio/loan_and_churn/</link>
+      <pubDate>Fri, 02 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/loan_and_churn/</guid>
+      <description>&lt;!-- BLOGDOWN-HEAD --&gt;
+&lt;!-- /BLOGDOWN-HEAD --&gt;
+
+&lt;!-- BLOGDOWN-BODY-BEFORE --&gt;
+&lt;!-- /BLOGDOWN-BODY-BEFORE --&gt;
+&lt;div id=&#34;section&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;/h4&gt;
+&lt;!--more--&gt;
+&lt;p&gt;A lending company decided to to modernize their risk management system by setting up an early warning system on default, bad debt and churn to improve their risk management process.The company decided to set up an internal secure server populated by a large SQL database, an analytic engine and a visualization layer/dashboard. We helped coaching their data science team, preparing data and building predictive models for defaults risk and churn rate, see this blog, defining the content of the user interface.&lt;/p&gt;
+&lt;div id=&#34;the-objectives-of-this-application-are-summarized-as&#34; class=&#34;section level5&#34;&gt;
+&lt;h5&gt;The objectives of this application are summarized as:&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Build and evaluate a model for credit risk and credit scoring for personal loan.&lt;/li&gt;
+&lt;li&gt;Build and evaluate a model for customer churn prediction.&lt;/li&gt;
+&lt;li&gt;Deploy the models in a production environment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;../img/credit_churn.png&#34; class=&#34;img-responsive&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Trefoil analytics helped by coaching their data science team, preparing data and building predictive models for defaults risk and churn rate, see this blog, defining the content of the user interface.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;examples-of-technologies-used-include-the-following&#34; class=&#34;section level5&#34;&gt;
+&lt;h5&gt;Examples of technologies used include the following&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;SQL, R, Python and Azure ML&lt;/li&gt;
+&lt;li&gt;Logistic regression, survival analysis, (survival) random forests.&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Features building and evaluation, model performance.&lt;/li&gt;
+&lt;li&gt;Psychometric scoring system.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Loan default and customer churn prediction</title>
+      <link>/projects/loan_and_churn/</link>
+      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/loan_and_churn/</guid>
+      <description>&lt;!-- BLOGDOWN-HEAD --&gt;
+&lt;!-- /BLOGDOWN-HEAD --&gt;
+
+&lt;!-- BLOGDOWN-BODY-BEFORE --&gt;
+&lt;!-- /BLOGDOWN-BODY-BEFORE --&gt;
+&lt;div id=&#34;the-challenge&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;The challenge&lt;/h4&gt;
+&lt;p&gt;A lending company decided to to modernize their risk management system by setting up an early warning system on default, bad debt and churn to improve their risk management process.The company decided to set up an internal secure server populated by a large SQL database, an analytic engine and a visualization layer/dashboard. The objectives of this application are summarized as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Build and evaluate a model for credit risk and credit scoring for personal loan.&lt;/li&gt;
+&lt;li&gt;Build and evaluate a model for customer churn prediction.&lt;/li&gt;
+&lt;li&gt;Deploy the models in a production environment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;../DCR/credit_churn.png&#34; class=&#34;img-responsive&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Trefoil analytics helped by preparing the data and building predictive models for defaults risk and churn rate, see this blog, and to define the content of the user interface.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;examples-of-technologies-used-include-the-following&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Examples of technologies used include the following&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;SQL, R, Python and Azure ML&lt;/li&gt;
+&lt;li&gt;Logistic regression, survival analysis, (survival) random forests.&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Features building and evaluation, model performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

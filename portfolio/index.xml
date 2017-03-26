@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolio on Trefoil analytics</title>
+    <link>/portfolio/index.xml</link>
+    <description>Recent content in Portfolio on Trefoil analytics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;2017 Trefoil analytics</copyright>
+    <lastBuildDate>Sat, 04 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Asset monitoring and maintenance optimisation</title>
+      <link>/portfolio/asset_monitoring/</link>
+      <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/asset_monitoring/</guid>
+      <description>&lt;!-- BLOGDOWN-HEAD --&gt;
+&lt;!-- /BLOGDOWN-HEAD --&gt;
+
+&lt;!-- BLOGDOWN-BODY-BEFORE --&gt;
+&lt;!-- /BLOGDOWN-BODY-BEFORE --&gt;
+&lt;div id=&#34;section&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;/h4&gt;
+&lt;!--more--&gt;
+&lt;p&gt;A manufacturer wants to build a platform for (near) real-time analysis of sensor data. The platform will be used to predict equipment failure, monitor assets performance and differentiates with new service-oriented models. Data has to be captured from existing datasets that include sources such as equipment sensors data, SAP data, maintenance book data, etc. Data from equipment sensors needs to be coupled with SAP data and maintenance book data to assist in building features for predicting equipment failures and optimizing asset performance.&lt;/p&gt;
+&lt;p&gt;The analysis scenarios include the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Preparing data for analysis.&lt;/li&gt;
+&lt;li&gt;Breaking down the structure of the asset (considered as complex system) into parts with strong statistical dependence&lt;/li&gt;
+&lt;li&gt;Defining and tracking the performance metrics for the identified parts&lt;/li&gt;
+&lt;li&gt;Analysis of historical time series data for the identified performance metrics to understand patterns and degradation condition.&lt;/li&gt;
+&lt;li&gt;Extraction of features from these time series. These features describe basic characteristics of the time series such as the time since the last maintenance, the slope of the trend in the time series and other statistical features such maximal value, number of peaks, etc.&lt;/li&gt;
+&lt;li&gt;Prediction of performance degradation well ahead of time, based on a prediction model using the extracted features; and optimization of maintenance time.&lt;/li&gt;
+&lt;li&gt;Estimation of cost saving using this prediction model instead of periodic maintenance schedule.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-solution&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;The solution&lt;/h4&gt;
+&lt;p&gt;The manufacturer decided to set up a cloud-based Amazon Web Service big data platform for storage and analytics, see the figure here-under.&lt;br /&gt;
+&lt;img src=&#34;../img/maintenance.png&#34; class=&#34;img-responsive&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Trefoil analytics helped by building a graphical model describing the different parts of the equipment and their interactions and choosing the most critical components. We also helped by collecting, converting, transforming and integrating different data source to make them ready for analysis. Trefoil’s large contribution consisted of building a model to assess or predict the impact of an maintenance decision, see this blog. This is namely very important as it determines if a maintenance intervention is needed or if a maintenance intervention produced the intended impacts.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;examples-of-technologies-used-include-the-following&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Examples of technologies used include the following&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;AWS-EC2, EMR, S3&lt;/li&gt;
+&lt;li&gt;PostgreSQL, InfluxDB&lt;/li&gt;
+&lt;li&gt;R, Python and Spark&lt;/li&gt;
+&lt;li&gt;Bayesian structural time series (BSTS), PCA, features building and evaluation and regression analysis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ADS-B big bata Collection and analysis</title>
+      <link>/portfolio/air_traffic/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/air_traffic/</guid>
+      <description>&lt;!-- BLOGDOWN-HEAD --&gt;
+&lt;!-- /BLOGDOWN-HEAD --&gt;
+
+&lt;!-- BLOGDOWN-BODY-BEFORE --&gt;
+&lt;!-- /BLOGDOWN-BODY-BEFORE --&gt;
+&lt;div id=&#34;section&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;/h4&gt;
+&lt;!--more--&gt;
+&lt;p&gt;An air traffic organization wants to create a real-time air traffic analysis and prediction application that can be used to analyse and control traffic congestion at large airports. Automatic Dependent Surveillance-Broadcast (ADS-B) receivers had to be installed and collected data should be shared with a community-based receiver network to be able to have disposition on a larger dataset from the community. The ADS-B data needs to be coupled with weather data from NOAA’s National Weather Service and internal air traffic geo-spatial data.&lt;/p&gt;
+&lt;p&gt;The objectives of this application are summarized as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Measure runway occupancy times and wake vortex separations by investigating ADS-B aircraft surveillance data..&lt;/li&gt;
+&lt;li&gt;Determine under what conditions runway occupancy becomes the limiting factor for runway throughput&lt;/li&gt;
+&lt;li&gt;Evaluate inter-arrival separations and identify potential opportunities for reduced minimum separations.&lt;/li&gt;
+&lt;li&gt;Quantify runway capacity benefits of reduced wake separation concepts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Trefoil analytics helped building a big data infrastructure starting by installing a couple an ADS-B receiver to collect and process aircraft tracks data. Real time tracks data is combined with near real-time weather data and other aviation data to build analytical applications to quantitatively review airspace/airport performance, operational efficiency and aviation safety&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/portfolio/img/ADSB2.png&#34; class=&#34;img-responsive&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;examples-of-technologies-used-include-the-following&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Examples of technologies used include the following&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Surfsara cloud computing services&lt;/li&gt;
+&lt;li&gt;PostgreSQL, Hive, Impala&lt;/li&gt;
+&lt;li&gt;R, Shiny, Python, Spark and Power BI&lt;/li&gt;
+&lt;li&gt;Descriptive statistics and regression analysis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Loan default and customer churn prediction</title>
+      <link>/portfolio/loan_and_churn/</link>
+      <pubDate>Fri, 02 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/loan_and_churn/</guid>
+      <description>&lt;!-- BLOGDOWN-HEAD --&gt;
+&lt;!-- /BLOGDOWN-HEAD --&gt;
+
+&lt;!-- BLOGDOWN-BODY-BEFORE --&gt;
+&lt;!-- /BLOGDOWN-BODY-BEFORE --&gt;
+&lt;div id=&#34;section&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;/h4&gt;
+&lt;!--more--&gt;
+&lt;p&gt;A lending company decided to to modernize their risk management system by setting up an early warning system on default, bad debt and churn to improve their risk management process.The company decided to set up an internal secure server populated by a large SQL database, an analytic engine and a visualization layer/dashboard. We helped coaching their data science team, preparing data and building predictive models for defaults risk and churn rate, see this blog, defining the content of the user interface.&lt;/p&gt;
+&lt;div id=&#34;the-objectives-of-this-application-are-summarized-as&#34; class=&#34;section level5&#34;&gt;
+&lt;h5&gt;The objectives of this application are summarized as:&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Build and evaluate a model for credit risk and credit scoring for personal loan.&lt;/li&gt;
+&lt;li&gt;Build and evaluate a model for customer churn prediction.&lt;/li&gt;
+&lt;li&gt;Deploy the models in a production environment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;../img/credit_churn.png&#34; class=&#34;img-responsive&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Trefoil analytics helped by coaching their data science team, preparing data and building predictive models for defaults risk and churn rate, see this blog, defining the content of the user interface.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;examples-of-technologies-used-include-the-following&#34; class=&#34;section level5&#34;&gt;
+&lt;h5&gt;Examples of technologies used include the following&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;SQL, R, Python and Azure ML&lt;/li&gt;
+&lt;li&gt;Logistic regression, survival analysis, (survival) random forests.&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Features building and evaluation, model performance.&lt;/li&gt;
+&lt;li&gt;Psychometric scoring system.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

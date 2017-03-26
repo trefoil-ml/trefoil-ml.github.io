@@ -1,0 +1,50 @@
+---
+date: "2017-03-04"
+type: "post"
+author: "Hicham Zmarrou"
+showonlyimage: false
+draft: false
+title: "Asset monitoring and maintenance optimisation"
+image: "projects/TCW/TCW.jpg"
+description: "Sensor data analysis, Performance degradation prediction, Maintenance optimisation, Bayesian structural time series, Feature building amd evalutaion" 
+tags: [
+    "Sensor data analysis",
+    "Performance degradation prediction",
+    "Maintenance optimisation"
+    ]
+weight:  -1
+---
+ 
+
+
+#### 
+
+<!--more-->
+
+A manufacturer wants to build a platform for (near) real-time analysis of sensor data. The platform will be used to predict equipment failure, monitor assets performance and differentiates with new service-oriented models. Data has to be captured from existing datasets that include sources such as equipment sensors data, SAP data, maintenance book data, etc. Data from equipment sensors needs to be coupled with SAP data and maintenance book data to assist in building features for predicting equipment failures and optimizing asset performance.
+
+The analysis scenarios include the following: 
+
+* Preparing data for analysis.
+* Breaking down the structure of the asset (considered as complex system) into parts with strong statistical dependence
+* Defining and  tracking the performance metrics for the identified parts
+* Analysis of historical time series data for the identified performance metrics to understand patterns and degradation condition.
+* Extraction of features from these time series. These features describe basic characteristics of the time series such as the time since the last maintenance, the slope of the trend in the time series and other statistical features such maximal value, number of peaks, etc.
+* Prediction of performance degradation well ahead of time, based on a prediction model using the extracted features; and optimization of maintenance time.
+* Estimation of cost saving using this prediction model instead of periodic maintenance schedule.
+
+#### The solution
+
+The manufacturer decided to set up a cloud-based Amazon Web Service big data platform for storage and analytics, see the figure here-under.  
+<img src="../img/maintenance.png" class="img-responsive" style="display: block; margin: auto;" />
+
+Trefoil analytics helped by building a graphical model describing the different parts of the equipment and their interactions and choosing the most critical components. We also helped by collecting, converting, transforming and integrating different data source to make them ready for analysis. Trefoil’s large contribution consisted of building a model to assess or predict the impact of an maintenance decision, see this blog. This is namely very important as it determines if a maintenance intervention is needed or if a maintenance intervention produced the intended impacts.                
+
+#### Examples of technologies used include the following
+
+* AWS-EC2, EMR, S3
+* PostgreSQL, InfluxDB 
+* R, Python and Spark 
+* Bayesian structural time series (BSTS), PCA, features building and evaluation and regression analysis. 
+
+

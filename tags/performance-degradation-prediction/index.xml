@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Performance Degradation Prediction on Trefoil analytics</title>
+    <link>/tags/performance-degradation-prediction/index.xml</link>
+    <description>Recent content in Performance Degradation Prediction on Trefoil analytics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;2017 Trefoil analytics</copyright>
+    <atom:link href="/tags/performance-degradation-prediction/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Asset monitoring and maintenance optimisation</title>
+      <link>/portfolio/asset_monitoring/</link>
+      <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/asset_monitoring/</guid>
+      <description>&lt;!-- BLOGDOWN-HEAD --&gt;
+&lt;!-- /BLOGDOWN-HEAD --&gt;
+
+&lt;!-- BLOGDOWN-BODY-BEFORE --&gt;
+&lt;!-- /BLOGDOWN-BODY-BEFORE --&gt;
+&lt;div id=&#34;section&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;/h4&gt;
+&lt;!--more--&gt;
+&lt;p&gt;A manufacturer wants to build a platform for (near) real-time analysis of sensor data. The platform will be used to predict equipment failure, monitor assets performance and differentiates with new service-oriented models. Data has to be captured from existing datasets that include sources such as equipment sensors data, SAP data, maintenance book data, etc. Data from equipment sensors needs to be coupled with SAP data and maintenance book data to assist in building features for predicting equipment failures and optimizing asset performance.&lt;/p&gt;
+&lt;p&gt;The analysis scenarios include the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Preparing data for analysis.&lt;/li&gt;
+&lt;li&gt;Breaking down the structure of the asset (considered as complex system) into parts with strong statistical dependence&lt;/li&gt;
+&lt;li&gt;Defining and tracking the performance metrics for the identified parts&lt;/li&gt;
+&lt;li&gt;Analysis of historical time series data for the identified performance metrics to understand patterns and degradation condition.&lt;/li&gt;
+&lt;li&gt;Extraction of features from these time series. These features describe basic characteristics of the time series such as the time since the last maintenance, the slope of the trend in the time series and other statistical features such maximal value, number of peaks, etc.&lt;/li&gt;
+&lt;li&gt;Prediction of performance degradation well ahead of time, based on a prediction model using the extracted features; and optimization of maintenance time.&lt;/li&gt;
+&lt;li&gt;Estimation of cost saving using this prediction model instead of periodic maintenance schedule.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-solution&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;The solution&lt;/h4&gt;
+&lt;p&gt;The manufacturer decided to set up a cloud-based Amazon Web Service big data platform for storage and analytics, see the figure here-under.&lt;br /&gt;
+&lt;img src=&#34;../img/maintenance.png&#34; class=&#34;img-responsive&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Trefoil analytics helped by building a graphical model describing the different parts of the equipment and their interactions and choosing the most critical components. We also helped by collecting, converting, transforming and integrating different data source to make them ready for analysis. Trefoil’s large contribution consisted of building a model to assess or predict the impact of an maintenance decision, see this blog. This is namely very important as it determines if a maintenance intervention is needed or if a maintenance intervention produced the intended impacts.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;examples-of-technologies-used-include-the-following&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Examples of technologies used include the following&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;AWS-EC2, EMR, S3&lt;/li&gt;
+&lt;li&gt;PostgreSQL, InfluxDB&lt;/li&gt;
+&lt;li&gt;R, Python and Spark&lt;/li&gt;
+&lt;li&gt;Bayesian structural time series (BSTS), PCA, features building and evaluation and regression analysis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

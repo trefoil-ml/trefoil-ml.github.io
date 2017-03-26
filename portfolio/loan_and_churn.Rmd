@@ -1,0 +1,41 @@
+---
+date: "2016-12-02"
+type: "post"
+author: "Hicham Zmarrou"
+showonlyimage: false
+draft: false
+title: "Loan default and customer churn prediction"
+image: "projects/DCR/my_customer.jpg"
+description: "Loans default, credit scoring, customer churn, early warning" 
+tags: [
+    "Credit risk",
+    "Customer churn prediction",
+    "Early warning"
+    ]
+weight:  1
+---
+ 
+
+
+#### 
+
+<!--more-->
+
+A lending company decided to to modernize their risk management system by setting up an early warning system on default, bad debt and churn to improve their risk management process.The company decided to set up an internal secure server populated by a large SQL database, an analytic engine and a visualization layer/dashboard. We helped coaching their data science team, preparing data and building predictive models for defaults risk and churn rate, see this blog, defining the content of the user interface.
+
+##### The objectives of this application are summarized as:
+
+* Build and evaluate a model for credit risk and credit scoring for personal loan. 
+* Build and evaluate a model for customer churn prediction. 
+* Deploy the models in a production environment.
+
+<img src="../img/credit_churn.png" class="img-responsive" style="display: block; margin: auto;" />
+
+Trefoil analytics helped by coaching their data science team, preparing data and building predictive models for defaults risk and churn rate, see this blog, defining the content of the user interface.
+
+##### Examples of technologies used include the following
+
+* SQL, R, Python and Azure ML 
+* Logistic regression, survival analysis, (survival) random forests.  
+* Features building and evaluation, model performance.
+* Psychometric scoring system.

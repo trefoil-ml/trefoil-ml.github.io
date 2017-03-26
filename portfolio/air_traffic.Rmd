@@ -1,0 +1,46 @@
+---
+date: "2017-02-01"
+type: "post"
+author: "Hicham Zmarrou"
+showonlyimage: false
+draft: false
+title: "ADS-B big bata Collection and analysis"
+image: "projects/TCW/ADSB2.jpg"
+description: "ADS-B, open air traffic tracking data, aviation research, air traffic statistics" 
+tags: [
+    "ADS-B",
+    "Air traffic",
+    "Aviation"
+    ]
+weight:  1
+---
+
+
+
+#### 
+
+<!--more-->
+
+An air traffic  organization wants to create a real-time air traffic analysis and prediction application that can be used to analyse and control traffic congestion at large airports.
+Automatic Dependent Surveillance-Broadcast (ADS-B) receivers had to be installed and collected data should be shared with a community-based receiver network to be able to have disposition on a larger dataset from the community. The ADS-B data needs to be coupled with weather data from NOAA’s National Weather Service and internal air traffic geo-spatial data.
+
+The objectives of this application are summarized as:
+    
+* Measure runway occupancy times and wake vortex separations by investigating ADS-B aircraft surveillance data..
+* Determine under what conditions runway occupancy becomes the limiting factor for runway throughput
+* Evaluate inter-arrival separations and identify potential opportunities for reduced minimum separations.
+* Quantify runway capacity benefits of reduced wake separation concepts.
+
+
+Trefoil analytics helped building a big data infrastructure starting by installing a couple an ADS-B receiver to collect and process aircraft tracks data. Real time tracks data is combined with near real-time weather data and other aviation data to build analytical applications to quantitatively review airspace/airport performance, operational efficiency and aviation safety
+
+<img src="/portfolio/img/ADSB2.png" class="img-responsive" style="display: block; margin: auto;" />
+
+#### Examples of technologies used include the following
+
+* Surfsara cloud computing services
+* PostgreSQL, Hive, Impala
+* R, Shiny, Python, Spark and Power BI 
+* Descriptive statistics and regression analysis.
+
+
